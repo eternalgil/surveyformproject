@@ -1,7 +1,14 @@
+* {
+    box-sizing: border-box;
+}
 body {
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
     margin: 0%;
     padding: 25px;
-    background-color: lightcyan;
+    background-color: rgba(20, 78, 148, 0.927);
+    min-height: 100vh;
 }
 h1 {
     text-align: center;
@@ -9,6 +16,10 @@ h1 {
 h2 {
     text-align: center;
 }
-p, input {
-    padding-left: 15px;
+form {
+    padding: 15px;
+}
+.container {
+    background-color: hsl(0, 0%, 100%);
+    padding: 25px;
 }
