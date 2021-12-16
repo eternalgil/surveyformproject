@@ -2,19 +2,24 @@
     box-sizing: border-box;
 }
 body {
-    display: flex;
-    align-items: baseline;
+    display: grid;
+    align-items: center;
     justify-content: center;
     margin: 0%;
     padding: 25px;
     background-color: rgba(20, 78, 148, 0.927);
     min-height: 100vh;
+    font-family: 'Roboto', sans-serif;;
 }
-h1 {
+h1, h2 {
     text-align: center;
+    text-transform: uppercase;
 }
-h2 {
-    text-align: center;
+.comment {
+    width: 400px;
+}
+.checkbox {
+    text-transform: capitalize;
 }
 form {
     padding: 15px;
@@ -22,4 +27,14 @@ form {
 .container {
     background-color: hsl(0, 0%, 100%);
     padding: 25px;
+    margin: 10px;
+    width: 500px;
+    align-items: center;
+    align-content: center;
+}
+.btn {
+    background-color: rgba(20, 78, 148, 0.927);
+    color: white;
+    cursor: pointer;
+    padding: 10px 15px;
 }

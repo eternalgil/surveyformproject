@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Satisfaction Survey Form</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,700;1,300&display=swap" rel="stylesheet">
 </head>
 <body>
     <form action="http://google.co.in">
@@ -13,28 +16,28 @@
             <h2>Customer Satisfaction Survey</h2>
             <hr>
             <p>Enter Your Name</p>
-            <input type="text" name="UserName" size= "35" maxlength="35" value="">
-            <br><br>
+            <input placeholder="Hector Gil" type="text" name="UserName" size= "35" maxlength="35" row="2" value="">
+            <br>
             <p>Vehicle You Purchased</p>
-            <input type="text" name="Dept" size="35" maxlength="35" value="">
-            <br><br>
+            <input placeholder="i.e. Toyota Camry" type="text" name="Dept" size="35" maxlength="35" row="2" value="">
+            <br>
             <p>Include Your Referral Below</p>
-            <textarea name="Comments" cols="30" rows="4"></textarea>
-            <br><br>
+            <textarea placeholder="i.e. Michael Gil" name="Comments" cols="30" rows="2"></textarea>
+            <br>
             <p>Did we meet your purchase expectation/s?</p>
             <input type="radio" name="exe" value="1">Yes 
             <input type="radio" name="exe" value="2">No
-            <p>How do you receive information?</p>
+            <p class="checkbox">How do you receive information? (Check all that applies)</p>
             <input type="checkbox" name="TextMessage">Text Message 
             <input type="checkbox" name="WordofMouth">Word of Mouth
             <input type="checkbox" name="Website">Website
             <input type="checkbox" name="PhoneCall">Phone Call 
             <input type="checkbox" name="SocialMedia">Social Media
-            <br><br>
+            <br>
             <p>What can we do better?</p>
-            <textarea type="text" name="recommendation" cols="50" rows="4"></textarea>
+            <textarea class="comment" placeholder="Your Recommendations Here" type="text" name="recommendation" cols="50" rows="4" width: 400px;></textarea>
             <br><br>
-            <input type="submit" value="Submit Form"><br><br>
+            <input class="btn"  type="submit" value="Submit Form"><br><br>
         </div>
     </form>
 </body>
